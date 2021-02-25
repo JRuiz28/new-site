@@ -1,0 +1,10 @@
+uuid: 5f967d88-138f-497e-b837-633f1adffdbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.medium
+label: Medium
+targetEntityType: media
+cache: true
