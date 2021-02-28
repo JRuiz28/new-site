@@ -1,0 +1,28 @@
+uuid: dc6b9b65-c138-42f1-b026-833feff20a07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hola.body
+    - node.type.hola
+  module:
+    - text
+    - user
+id: node.hola.default
+targetEntityType: node
+bundle: hola
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
