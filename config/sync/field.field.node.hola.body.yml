@@ -1,0 +1,23 @@
+uuid: c9b6352f-6b0b-4926-bcdc-95b2fb480d58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hola
+  module:
+    - text
+id: node.hola.body
+field_name: body
+entity_type: node
+bundle: hola
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

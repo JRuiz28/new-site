@@ -1,0 +1,17 @@
+uuid: 0abc761f-1399-4a1d-9b90-04481ddb31c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Content text'
+type: hola
+description: 'Content with text formatter'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
